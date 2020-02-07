@@ -1,0 +1,47 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+             "label": "P4 Pipeline",
+              "submenu": [
+                  {
+                       "label" : "P4 Plugin Help",
+                         "command" : "pipeline:help_desk"
+                     },
+                {
+                  "label": "Structure P4 Pipeline",
+                  "command": "pipeline:structure"
+              },
+              {
+                  "label": "Header Auto Fill",
+                  "command": "pipeline:headers"
+              }
+          ]
+      }
+    ]
+},
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "P4 Pipeline",
+          "submenu": [
+              {
+                   "label" : "P4 Plugin Help",
+                     "command" : "pipeline:help_desk"
+                 },
+            {
+              "label": "Structure P4 Pipeline",
+              "command": "pipeline:structure"
+          },
+             {
+                 "label": "Header Auto Fill",
+                 "command": "pipeline:headers"
+             }
+          ]
+        }
+      ]
+    }
+  ]
+}

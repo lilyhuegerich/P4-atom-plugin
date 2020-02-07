@@ -1,0 +1,7 @@
+{
+  "atom-workspace":{
+      "cmd-alt-s": "pipeline:structure",
+      "cmd-alt-t": "pipeline:headers",
+    "cmd-alt-h": "pipeline:help_desk"
+}
+}
